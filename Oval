@@ -1,0 +1,37 @@
+package geometri;
+
+/**
+*@author Anton Solback, Rasmus Davidsson. Group nr 40.
+*/
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Oval extends Shapes {
+	
+	private int width;
+	private int height;
+	
+
+
+	/**
+	 * 
+	 * @param x Distance right from origo.
+	 * @param y Distance down from origo.
+	 * @param width The width of the Oval
+	 * @param height The height of the Oval
+	 * @param c The color of the Oval
+	 * @throws IllegalPositionException If the position is invalid
+	 */
+	public Oval(int x, int y, int width, int height, Color c) throws IllegalPositionException{}
+	
+	/**
+	 * 
+	 * @param f A GeometricalForm object
+	 * @param width The width of the Oval
+	 * @param height The height of the Oval
+	 * @param c The color of the Oval
+	 */
+	public Oval(GeometricalForm f, int width, int height, Color c){}
+	
+}
