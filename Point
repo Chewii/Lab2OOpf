@@ -1,0 +1,28 @@
+package geometri;
+
+/**
+ * @author Anton Solback, Rasmus Davidsson. Group nr 40.
+ */
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Point extends Shapes{
+
+	/**
+	 * 
+	 * @param x Distance right from origo.
+	 * @param y Distance down from origo.
+	 * @param c The color
+	 * @throws IllegalPositionException If the position is invalid
+	 */
+	public Point(int x, int y, Color c) throws IllegalPositionException{}
+	
+	/**
+	 * 
+	 * @param f A GeometricalForm object
+	 * @param c The color
+	 */
+	public Point(GeometricalForm f, Color c){}
+
+}
