@@ -1,5 +1,9 @@
 package geometri;
 
+/**
+*@author Anton Solback, Rasmus Davidsson. Group nr 40.
+*/
+
 import java.awt.Color;
 import java.awt.Graphics;
 
