@@ -1,0 +1,62 @@
+package geometri;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Line extends Shapes {
+
+
+	private int xPos2;
+	private int yPos2;
+
+	/**
+	 * 
+	 * @param x1 posx1 of the line
+	 * @param y1 posy1 of the line
+	 * @param x2 posx2 of the line
+	 * @param y2 posy2 of the line
+	 * @param c color of the line
+	 * @throws IllegalPositionException If the coordinates are invalid
+	 */
+	
+	public Line(int x1, int y1, int x2, int y2, Color c) throws IllegalPositionException{}
+	
+	/**
+	 * 
+	 * @param f1 GeometricalForm object 1
+	 * @param f2 GeometricalForm object 2
+	 * @param c Color of the line
+	 */
+	public Line(GeometricalForm f1, GeometricalForm f2, Color c){}
+	
+
+	/**
+	 * 
+	 * @return The x value of posx2
+	 */
+	public int getX2(){
+
+		return 0;
+	}
+	
+	/**
+	 * 
+	 * @return The y value of posy2
+	 */
+
+	public int getY2(){
+
+		return 0;
+	}
+
+	
+	/**
+	 * 
+	 * @return The gradient of the line.
+	 */
+	public int getGradient(){
+
+		return 0;
+	}
+	
+}
